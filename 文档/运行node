@@ -1,0 +1,10 @@
+1.  node+文件名
+2.nodemon自动重启
+    安装：npm i nodemon -g
+    运行：nodemon+文件名
+3.使用vscode进行断点调试
+4.jest --》文件名+spec.js
+    安装：npm i jest -g
+    运行：jest + 文件名 + --watch
+    断言：expect(变量名)
+            .toBe('')
