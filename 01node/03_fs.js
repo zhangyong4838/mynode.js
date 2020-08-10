@@ -25,6 +25,20 @@ const fs = require('fs')
 //     console.log(err);
 // })
 // 改文件名称(完整的文件路径)
-fs.rename('./static/11','./11',(err)=>{
-    console.log(err);
-})
+// fs.rename('./static/11','./11',(err)=>{
+//     console.log(err);
+// })
+
+// 文件夹操作
+// 创建文件夹
+// fs.mkdir('./static/66',(err)=>{
+//     console.log(err);
+// })
+// 删除文件夹
+// fs.rmdir('./static/66',(err)=>{
+//     console.log(err);
+// })
+// 读取文件夹
+// fs.readdir('./static',(err,data)=>{
+//     console.log(data);
+// })
