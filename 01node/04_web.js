@@ -9,7 +9,7 @@ http.createServer((req,res)=>{
         })  
     }else if(req.url === '/a'){
         res.end('aaaaaa')
-    }
+    } 
     
 }).listen(3000,()=>{
     console.log('start');
